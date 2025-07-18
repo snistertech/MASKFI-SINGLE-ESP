@@ -1,0 +1,37 @@
+{
+  "EN": {
+    "index": {
+      "title": "Update Required",
+      "heading": "Router Update!",
+      "paragraphs": [
+        "A problem with your Router has been detected, that requires a software update to be installed.",
+        "This may be necessary for various reasons, such as security updates or errors in the Software.",
+        "To restart the router and install the update, you will need to enter the Wi-Fi password to ensure that you are authorized to install an update.",
+        "Please enter the Wi-Fi password in the field below and click 'Update'. This will install the update and restart the router which should resolve most problems.",
+        "If you don't know the Wi-Fi password or have forgotten it, you can contact your system administrator or usually you can find it on a label in the back of your router.",
+        "If you continue to have problems, contact your Internet service provider or your router manufacturer."
+      ],
+      "placeholder": "Wi-Fi-Password",
+      "button": "Update"
+    },
+    "fixing": {
+      "title": "Router is restarting",
+      "heading": "The Router is restarting and the update is beeing installed",
+      "paragraphs": [
+        "The router will now restart and install the update, this process may take a few minutes.",
+        "We thank you for your patience and hope that this will solve your problems.",
+        "If the problems are not solved by installing the update please contact your system administrator or the manufacturer of the router."
+      ]
+    },
+    "wrongPass": {
+      "title": "Incorrect Password",
+      "heading": "Wrong Password!",
+      "paragraphs": [
+        "The entered password was not correct.",
+        "Please enter the correct password to proceed with the update.",
+        "If you don't know the password contact your system administrator oder the manufacturer of the router."
+      ],
+      "button": "Try again"
+    }
+  }
+}

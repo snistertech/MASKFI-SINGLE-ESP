@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+#networkBar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 20px;
+  width: 90%;
+  max-width: 800px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+#networkName {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  margin: 20px auto;
+  display: block;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin: 15px auto;
+}
+
+input[type='password'] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type='password']:focus {
+  border-color: #007bff;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff1744;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d50000;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#pc-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.5;
+  color: #555;
+  font-size: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #content {
+    width: 80%;
+    padding: 40px;
+  }
+  
+  .container img {
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  input[type='password'], button {
+    font-size: 18px;
+    padding: 18px;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1025px) {
+  #content {
+    width: 70%;
+    max-width: 900px;
+    padding: 50px;
+  }
+  
+  .container img {
+    width: 500px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  input[type='password'], button {
+    font-size: 18px;
+    padding: 18px;
+  }
+  
+  #networkName {
+    font-size: 20px;
+  }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  
+  #content {
+    width: 95%;
+    padding: 20px;
+    margin: 10px auto;
+  }
+  
+  #networkBar {
+    width: 95%;
+    padding: 12px 15px;
+  }
+  
+  .container img {
+    width: 250px;
+    margin: 15px auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.4;
+  }
+  
+  input[type='password'] {
+    padding: 18px;
+    font-size: 16px;
+    margin: 12px 0;
+  }
+  
+  button {
+    padding: 18px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #networkName {
+    font-size: 16px;
+  }
+  
+  #pc-center {
+    padding: 10px;
+    min-height: 95vh;
+  }
+}
+
+/* Extra small mobile devices */
+@media screen and (max-width: 480px) {
+  #content {
+    width: 98%;
+    padding: 15px;
+  }
+  
+  .container img {
+    width: 200px;
+  }
+  
+  h1 {
+    font-size: 22px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  input[type='password'], button {
+    padding: 16px;
+    font-size: 15px;
+  }
+}
+
+/* High DPI / Retina Display Support */
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) {
+  .container img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
