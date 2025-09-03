@@ -113,7 +113,7 @@
 
 ### 🌐 **Usage**
 1. **Power on** the device
-2. **Connect** to the MaskFi access point
+2. **Connect** to the MaskFi access point, Wi-Fi password 'maskfi001'
 3. **Navigate** to `192.168.1.1` in your browser
 4. **Activate** with license key
 5. **Configure** targets and start testing
@@ -178,3 +178,4 @@ Compilation Results:
 ---
 
 *© 2024 MaskFi Project. For educational and authorized testing purposes only.*
+
